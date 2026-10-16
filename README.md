@@ -1,27 +1,27 @@
-# BDRT Holdings — Full Website (Static)
+# BDRT Holdings — Full Website v2 (Premium)
 
-Dark Luxury Editorial concept for the BDRT Premium Homepage Redesign brief, expanded to a full static site.
+Dark Luxury Editorial concept for the BDRT Premium Homepage Redesign brief, elevated to a premium full static site. v2 does NOT overwrite v1.
 
 ## How to open
-Open `index.html` in any browser. No build step, no server needed. All pages, CSS, JS and images use relative paths, so the whole `full-site/` folder can be moved or zipped as-is.
+Open `index.html` in a browser. No build step, no server needed. All pages link to each other; `styles.css` + `script.js` are shared.
 
-## File list
-- `index.html` — Homepage: Hero (VOXA / VOXA House primary), BDRT intro, Featured Businesses (6 cards), Selected Work, Growing toward 2027, Connect, Footer
-- `about.html` — BDRT history + commercial vision + 2027 expansion
-- `businesses.html` — Detail for all 6 businesses: iMERGE Advertising, Involia, Academic Elements, VOXA House, VOXA Brand, Emerging Brands & Ventures
-- `portfolio.html` — Selected work grid
-- `brands.html` — Our Brands: VOXA House, VOXA Brand + Emerging
-- `contact.html` — Business inquiry form (front-end only, no backend) + Client Login / Donor Portal as links only, per brief — no login systems
-- `styles.css` — Shared stylesheet (charcoal #0E0E0C, cream #F5F0E8, champagne gold #C9A86A, Georgia serif headlines + Inter/Arial body), responsive desktop + mobile
-- `script.js` — Mobile menu toggle, smooth scroll (CSS), contact-form demo message only
-- `https://images.pexels.com/photos/33989223/pexels-photo-33989223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`, `https://images.pexels.com/photos/19906681/pexels-photo-19906681.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1` — Editorial photography (see note below)
+## Files
+- `index.html` — Full-bleed hero, stats strip, 01 intro + pull-quote, 02 six image business cards, 03 selected work (4 projects), 04 2027 timeline, trust band, 05 connect
+- `about.html`, `businesses.html`, `portfolio.html`, `brands.html`, `contact.html` — Same header/footer, responsive
+- `styles.css` — Premium stylesheet: full-bleed hero, image cards with hover, quote/timeline/trust bands, mobile ≤960px
+- `script.js` — Mobile menu + mailto contact form (opens email app for info@bdrt.net, no backend)
+- `CREATIVE-DIRECTION.md` — Direction note (photography, type, color, hero logic)
+- `assets/` — Leftover v1 local images; v2 pages reference Pexels URLs directly (see Image Sources below)
 
-## Design
-- Header/footer identical across pages. Nav: Home | About | Businesses | Portfolio | Our Brands | Contact + Client Login / Donor Portal buttons.
-- Involia subtitle is **"Construction & project execution"** (corrected from the mockup's incorrect label).
+## Image Sources (all Pexels, free to use, no AI photography)
+- Hero VOXA editorial: Pexels 19906681
+- iMERGE Advertising: Pexels 5466286 (creative team meeting)
+- Involia Construction: Pexels 8961064 (workers in hardhats reviewing plans)
+- Academic Elements: Pexels 8141591 (students, smart-board classroom)
+- VOXA House: Pexels 29281615 (fashion editorial)
+- VOXA Brand: Pexels 20374330 (fashion editorial)
+- Emerging Brands: Pexels 3932229 (startup team, modern office)
+- Selected Work: Pexels 33989223, 8542182, 17410693, 10082715
+- Contact side visual: Pexels 8542182
 
-## Photography note
-Images are Pexels stock placeholders per the brief. **No AI-generated photography was used as final imagery.** Replace `assets/*.jpg` with licensed / client brand photography before launch. Keep filenames or update the `src` references in the HTML files.
-
-## What is NOT included (per brief)
-No backend, no login systems, no functioning integrations, no CMS. The contact form shows a demo message and sends nothing.
+Photography shown is Pexels stock as placeholder per brief — no AI-generated photography used as final imagery. Replace with licensed / client brand photography before launch. Contact email info@bdrt.net is a placeholder — replace with the client's real inbox.
